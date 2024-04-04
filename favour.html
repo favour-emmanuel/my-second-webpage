@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My web page</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #2a2a2a;
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my Webpage</h1>
+    <a href="./others/about.html">Take me to About page</a>
+    <a href="./others/contact.html">Take me to Contact page</a>
+    <a href="./others/blog.html">Take me to Blog page</a>
+
+    <form>
+      <div>
+        <label for="first-name">First Name:</label>
+        <input type="text" placeholder="first name" required />
+      </div>
+      <div>
+        <label for="last-name">Last Name:</label>
+        <input type="text" placeholder="last name" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email" required />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="password" required />
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Rather not say</option>
+        </select>
+      </div>
+      <div>
+        <label for="favorite-foods">Favorite Foods:</label>
+        <select>
+          <option value="beans">Beans</option>
+          <option value="rice">Rice</option>
+          <option value="spaghetti">Spaghetti</option>
+          <option value="soup">Soup</option>
+          <option value="pizza">Pizza</option>
+        </select>
+      </div>
+      <div>
+        <label for="certificate">Certificate:</label>
+        <select>
+          <option value="fslc">FSLC</option>
+          <option value="olevel">O'Level</option>
+          <option value="bsc">BSC</option>
+        </select>
+      </div>
+      <div>
+        <label for="phone-number">Phone number:</label>
+        <input type="tel" placeholder="phone no" required />
+      </div>
+      <div>
+        <label for="about-yourself">Tell us about yourself:</label>
+        <textarea required></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows -->
+        <tr>
+          <td>1</td>
+          <td>John Mill</td>
+          <td>johnmill@gmail.com</td>
+          <td>********</td>
+          <td>30</td>
+          <td>Male</td>
+          <td>Ghana</td>
+        </tr>
+        <!-- Add more rows as needed -->
+        <tr>
+          <td>2</td>
+          <td>Phili Doe</td>
+          <td>philipdoe@gmail.com</td>
+          <td>********</td>
+          <td>20</td>
+          <td>Male</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Rebecca Robbin</td>
+          <td>rebeccarobbin@gmail.com</td>
+          <td>********</td>
+          <td>34</td>
+          <td>Female</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Harriot Bentzen</td>
+          <td>hbentzen10@gmail.com</td>
+          <td>********</td>
+          <td>26</td>
+          <td>Male</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Veronica Ankrah</td>
+          <td>veronicaankrah77@gmail.com</td>
+          <td>********</td>
+          <td>22</td>
+          <td>Female</td>
+          <td>Ghana</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Bright Benson</td>
+          <td>brightbenson@gmail.com</td>
+          <td>********</td>
+          <td>32</td>
+          <td>Male</td>
+          <td>Cameroon</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Bright Benson</td>
+          <td>brightbenson@gmail.com</td>
+          <td>********</td>
+          <td>32</td>
+          <td>Male</td>
+          <td>Cameroon</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Hardik Makwana</td>
+          <td>hardikmakwana65@gmail.com</td>
+          <td>********</td>
+          <td>28</td>
+          <td>Male</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Genesis Igwe</td>
+          <td>hardikmakwana65@gmail.com</td>
+          <td>********</td>
+          <td>30</td>
+          <td>Female</td>
+          <td>Nigeria</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Crystabelle Paulson</td>
+          <td>Crystabellepaulson88@gmail.com</td>
+          <td>********</td>
+          <td>24</td>
+          <td>Female</td>
+          <td>Nigeria</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Reynard Blackbrough</td>
+          <td>blackbroughb@gmail.com</td>
+          <td>********</td>
+          <td>34</td>
+          <td>Male</td>
+          <td>Senegal</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
